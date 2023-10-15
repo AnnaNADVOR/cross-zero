@@ -1,0 +1,36 @@
+body { 
+    background-color: rgb(173, 226, 173);
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+tr:nth-child(2) {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+td {
+    border-left: 2px solid;
+    border-right:2px solid ;
+    width: 60px;
+    height: 60px;
+}
+
+td:nth-last-child(1) {
+    border-right: none;
+}
+
+
+td:nth-last-child(3) {
+     border-left: none;
+} 
+
+.container {
+
+padding: 30px;
+}
+
