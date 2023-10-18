@@ -1,6 +1,8 @@
-body { 
+/* body { 
     background-color: rgb(173, 226, 173);
-}
+   
+} */
+
 table {
     border-collapse: collapse;
     margin-left: auto;
@@ -34,3 +36,14 @@ td:nth-last-child(3) {
 padding: 30px;
 }
 
+.cross-svg {
+    background-image: url(svg/cross.svg);
+    background-size:cover; 
+}
+
+.zero-svg {
+    background-image: url(svg/zero.svg);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
